@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "APNumberPad_Example.app"
-               BlueprintName = "APNumberPad_Example"
+               BlueprintIdentifier = "2653343F1E5C0C210083A7B4"
+               BuildableName = "APNumberPad.framework"
+               BlueprintName = "APNumberPad"
                ReferencedContainer = "container:APNumberPad.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "APNumberPad_Tests.xctest"
-               BlueprintName = "APNumberPad_Tests"
-               ReferencedContainer = "container:APNumberPad.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "APNumberPad_Example.app"
-            BlueprintName = "APNumberPad_Example"
-            ReferencedContainer = "container:APNumberPad.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "APNumberPad_Example.app"
-            BlueprintName = "APNumberPad_Example"
+            BlueprintIdentifier = "2653343F1E5C0C210083A7B4"
+            BuildableName = "APNumberPad.framework"
+            BlueprintName = "APNumberPad"
             ReferencedContainer = "container:APNumberPad.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "APNumberPad_Example.app"
-            BlueprintName = "APNumberPad_Example"
+            BlueprintIdentifier = "2653343F1E5C0C210083A7B4"
+            BuildableName = "APNumberPad.framework"
+            BlueprintName = "APNumberPad"
             ReferencedContainer = "container:APNumberPad.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
