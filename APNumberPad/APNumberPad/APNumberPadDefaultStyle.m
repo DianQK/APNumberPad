@@ -52,7 +52,7 @@ static inline UIColor *APNP_RGBa(int r, int g, int b, CGFloat alpha) {
 #pragma mark - Function button
 
 + (UIFont *)functionButtonFont {
-    return [UIFont systemFontOfSize:28.0 weight:UIFontWeightLight];
+    return [UIFont systemFontOfSize:21.0 weight:UIFontWeightLight];
 }
 
 + (UIColor *)functionButtonTextColor {
@@ -74,7 +74,7 @@ static inline UIColor *APNP_RGBa(int r, int g, int b, CGFloat alpha) {
 
 + (UIImage *)clearFunctionButtonImageHighlighted {
     NSBundle *frameWorkBundle = [NSBundle bundleForClass:[self class]];
-    return [UIImage imageNamed:@"apnumberpad_backspace_icon.png" inBundle:frameWorkBundle compatibleWithTraitCollection:nil];
+    return [UIImage imageNamed:@"apnumberpad_backspace_icon_highlight.png" inBundle:frameWorkBundle compatibleWithTraitCollection:nil];
 }
 
 @end

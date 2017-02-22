@@ -21,9 +21,9 @@
 		2653346E1E5C0CE00083A7B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2653346C1E5C0CE00083A7B4 /* LaunchScreen.storyboard */; };
 		265334731E5C0CEC0083A7B4 /* APNumberPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265334401E5C0C210083A7B4 /* APNumberPad.framework */; };
 		265334741E5C0CEC0083A7B4 /* APNumberPad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 265334401E5C0C210083A7B4 /* APNumberPad.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2653347D1E5C10040083A7B4 /* apnumberpad_backspace_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2653347A1E5C10040083A7B4 /* apnumberpad_backspace_icon.png */; };
 		2653347E1E5C10040083A7B4 /* apnumberpad_backspace_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2653347B1E5C10040083A7B4 /* apnumberpad_backspace_icon@2x.png */; };
-		2653347F1E5C10040083A7B4 /* apnumberpad_backspace_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2653347C1E5C10040083A7B4 /* apnumberpad_backspace_icon@3x.png */; };
+		56DC29051E5DB2EB00000DBB /* apnumberpad_backspace_icon_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56DC29031E5DB2EB00000DBB /* apnumberpad_backspace_icon_highlight@2x.png */; };
+		56DC29061E5DB2EB00000DBB /* apnumberpad_backspace_icon_highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56DC29041E5DB2EB00000DBB /* apnumberpad_backspace_icon_highlight@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,9 +67,9 @@
 		2653346A1E5C0CE00083A7B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2653346D1E5C0CE00083A7B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2653346F1E5C0CE00083A7B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2653347A1E5C10040083A7B4 /* apnumberpad_backspace_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apnumberpad_backspace_icon.png; sourceTree = "<group>"; };
 		2653347B1E5C10040083A7B4 /* apnumberpad_backspace_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apnumberpad_backspace_icon@2x.png"; sourceTree = "<group>"; };
-		2653347C1E5C10040083A7B4 /* apnumberpad_backspace_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apnumberpad_backspace_icon@3x.png"; sourceTree = "<group>"; };
+		56DC29031E5DB2EB00000DBB /* apnumberpad_backspace_icon_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apnumberpad_backspace_icon_highlight@2x.png"; sourceTree = "<group>"; };
+		56DC29041E5DB2EB00000DBB /* apnumberpad_backspace_icon_highlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apnumberpad_backspace_icon_highlight@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +112,8 @@
 		265334421E5C0C210083A7B4 /* APNumberPad */ = {
 			isa = PBXGroup;
 			children = (
+				56DC29031E5DB2EB00000DBB /* apnumberpad_backspace_icon_highlight@2x.png */,
+				56DC29041E5DB2EB00000DBB /* apnumberpad_backspace_icon_highlight@3x.png */,
 				2653344B1E5C0C540083A7B4 /* APNumberButton.h */,
 				2653344C1E5C0C540083A7B4 /* APNumberButton.m */,
 				2653344D1E5C0C540083A7B4 /* APNumberPad.m */,
@@ -120,9 +122,7 @@
 				265334501E5C0C540083A7B4 /* APNumberPadStyle.h */,
 				265334431E5C0C210083A7B4 /* APNumberPad.h */,
 				265334441E5C0C210083A7B4 /* Info.plist */,
-				2653347A1E5C10040083A7B4 /* apnumberpad_backspace_icon.png */,
 				2653347B1E5C10040083A7B4 /* apnumberpad_backspace_icon@2x.png */,
-				2653347C1E5C10040083A7B4 /* apnumberpad_backspace_icon@3x.png */,
 			);
 			path = APNumberPad;
 			sourceTree = "<group>";
@@ -241,8 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2653347D1E5C10040083A7B4 /* apnumberpad_backspace_icon.png in Resources */,
-				2653347F1E5C10040083A7B4 /* apnumberpad_backspace_icon@3x.png in Resources */,
+				56DC29061E5DB2EB00000DBB /* apnumberpad_backspace_icon_highlight@3x.png in Resources */,
+				56DC29051E5DB2EB00000DBB /* apnumberpad_backspace_icon_highlight@2x.png in Resources */,
 				2653347E1E5C10040083A7B4 /* apnumberpad_backspace_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +494,7 @@
 				2653344A1E5C0C210083A7B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		265334701E5C0CE00083A7B4 /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +503,7 @@
 				265334721E5C0CE00083A7B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
