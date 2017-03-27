@@ -24,7 +24,7 @@ static inline UIColor *APNP_RGBa(int r, int g, int b, CGFloat alpha) {
 }
 
 + (CGFloat)separator {
-    return [UIScreen mainScreen].scale == 2.0 ? 0.5 : 1.0;
+    return 0.5;
 }
 
 + (UIColor *)numberPadBackgroundColor {
